@@ -2,8 +2,8 @@ import React from 'react'
 
 export default () => {
     return (
-        <div>
+        <article>
             <h1>DOH... not found</h1>
-        </div>
+        </article>
     )
 }
