@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import logo from '../img/cropped-header.jpg'
 
 export default () => {
@@ -7,7 +8,7 @@ export default () => {
             <header>
                 <a href='/'><img src={logo} alt="Fry Ghost // Brad Butler"/></a>
                 <p>
-                    <a href='/'>Home</a><a href='/projects'>Projects</a><a href='/contact'>Contact</a>
+                    <Link to='/'>Home</Link><Link to='/projects'>Projects</Link><Link to='/contact'>Contact</Link>
                 </p>
             </header>
         </div>
